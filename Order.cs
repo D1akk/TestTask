@@ -12,6 +12,12 @@ namespace TestTask
         public Coordinate pointA { get; set; }
         public Coordinate pointB { get; set; }
         public double price { get; set; }
+        public string name { get; set; }
+
+        public override string ToString()
+        {
+            return $"Заказ  №{id} '{name}': из {pointA} в {pointB}, цена: {price}";
+        }
 
     }
 }

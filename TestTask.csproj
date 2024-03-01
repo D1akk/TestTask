@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assigner.cs" />
     <Compile Include="Coordinate.cs" />
     <Compile Include="Courier.cs" />
+    <Compile Include="Distance.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

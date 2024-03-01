@@ -10,13 +10,18 @@ namespace TestTask
     {
         public double latitude { get; set; }
         public double longitude { get; set; }
-   
+
         public Coordinate(double latitude, double longitude)
         {
             this.latitude = latitude;
             this.longitude = longitude;
         }
+
+        public override string ToString()
+        {
+            return $"({latitude}, {longitude})";
+        }
     }
 
-   
+
 }

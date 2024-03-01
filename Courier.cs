@@ -11,5 +11,9 @@ namespace TestTask
         public int id { get; set; }
         public string name { get; set; }
         public Coordinate point { get; set; }
+        public override string ToString()
+        {
+            return $"Курьер №{id} '{name}', местоположение: {point}";
+        }
     }
 }
